@@ -1,0 +1,11 @@
+INVALID_REQ_MSG="invalid request"
+const SERVERERROR="internal serval error";
+const NOTFOUND="data not found"
+const UPDATEMSG="data updated"
+const PHONEXIST="phone number already exist"
+const EMAILEXIST="email already exist"
+const DATAINVALID="invaild data"
+const DATADELETE="data deleted successfully"
+const DATAADD="information saved"
+const INVALID_PARAMS="invalid parameter"
+module.exports={INVALID_REQ_MSG,SERVERERROR,NOTFOUND,UPDATEMSG,PHONEXIST,EMAILEXIST,INVALID_PARAMS,DATADELETE,DATAADD,DATAINVALID};
