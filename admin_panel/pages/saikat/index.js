@@ -20,9 +20,9 @@ export default function index() {
     <>
     <Box sx={{ flexGrow: 1 }}>
     <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-    <Grid item xs={4}><Item><Login/></Item></Grid>
-    <Grid item xs={4}><Item><Forget/></Item></Grid>
-    <Grid item xs={4}><Item><Signup/></Item></Grid>
+    <Grid item xs={12} md={4} sm={6}><Item><Login/></Item></Grid>
+    <Grid item xs={12}  md={4} sm={6}><Item><Forget/></Item></Grid>
+    <Grid item xs={12}  md={4} sm={6}><Item><Signup/></Item></Grid>
     </Grid>
     </Box>
     </>
