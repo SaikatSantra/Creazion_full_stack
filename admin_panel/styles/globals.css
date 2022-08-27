@@ -1,59 +1,131 @@
-body{
-font-family: roboto;
+body {
+  font-family: roboto;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+
+main.MuiBox-root {
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* custom */
+.massage-box {
+  position: relative;
+}
+.card-icon-wrapper {
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 57px;
+  height: 57px;
+  border-radius: 2px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+i.material-icons svg {
+  fill: #fff;
+  width: 35px;
+  height: 35px;
+}
+.MuiTypography-root {
+  padding: 10px;
+}
+.sun {
+  background-color: #00b67a;
+  box-shadow: 0 0 10px 5px rgb(0 182 122 / 35%);
+}
+.money {
+  background-color: #ff420f;
+  box-shadow: 0 0 10px 5px rgb(255 66 15 / 35%);
+}
+.moving {
+  background-color: #7a00ff;
+  box-shadow: 0 0 10px 5px rgb(122 0 255 / 35%);
+}
+li.MuiListItem-root.MuiListItem-gutters.css-uxa1ks-MuiListItem-root {
+  border: 0;
+  font-size: 25px;
+  display: flex;
+  margin: 16px 8px;
+  width: 50px;
+  line-height: 12px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 9px 5px 10px #d2dffc, -5px -5px 10px #faffff;
+  transition: 0.25s ease-in-out;
+}
+li.MuiListItem-root.MuiListItem-gutters.css-uxa1ks-MuiListItem-root:hover {
+  background-color: #f9f9f9;
+  box-shadow: inset 5px 5px 10px #d2dffc, inset -5px -5px 10px #faffff;
+  margin: 16px 8px;
+  width: 50px;
+  line-height: 12px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.css-1fqi8hc-MuiButtonBase-root-MuiListItemButton-root:hover {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  background-color: transparent!important;
 }
 
 
-
-.swiper {
-    width: 100%;
-    height: 100%;
-  }
-  
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-  
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    line-height: 20px;
-    font-size: 12px;
-    color: #000;
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.2);
-  }
-  
-  .swiper-pagination-bullet-active {
-    color: #fff;
-    background: #007aff;
-  }
-  
-
-  main.MuiBox-root {
-    width: 95%;
-    margin: 0 auto;
+.MuiButtonBase-root.MuiListItemButton-root.MuiListItemButton-gutters.css-1m5i5w0-MuiButtonBase-root-MuiListItemButton-root {
+  margin-left: -6px;
+}
+.MuiListItemText-root .MuiTypography-root {
+  margin-left: 15px;
 }
