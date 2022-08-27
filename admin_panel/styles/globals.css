@@ -52,3 +52,8 @@ font-family: roboto;
     background: #007aff;
   }
   
+
+  main.MuiBox-root {
+    width: 95%;
+    margin: 0 auto;
+}
